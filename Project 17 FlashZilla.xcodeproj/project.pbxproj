@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22044AA260F3F4200A667F7 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22044A9260F3F4200A667F7 /* EditView.swift */; };
 		C236CE842604EC160048E76A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236CE832604EC160048E76A /* AppDelegate.swift */; };
 		C236CE862604EC160048E76A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236CE852604EC160048E76A /* SceneDelegate.swift */; };
 		C236CE882604EC160048E76A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236CE872604EC160048E76A /* ContentView.swift */; };
@@ -14,9 +15,12 @@
 		C236CE8D2604EC160048E76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C236CE8C2604EC160048E76A /* Assets.xcassets */; };
 		C236CE902604EC160048E76A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C236CE8F2604EC160048E76A /* Preview Assets.xcassets */; };
 		C236CE932604EC160048E76A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C236CE912604EC160048E76A /* LaunchScreen.storyboard */; };
+		C236CE9C2604EC500048E76A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236CE9B2604EC500048E76A /* Card.swift */; };
+		C236CE9F2604ECE10048E76A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236CE9E2604ECE10048E76A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C22044A9260F3F4200A667F7 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		C236CE802604EC160048E76A /* Project 17 FlashZilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 17 FlashZilla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C236CE832604EC160048E76A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C236CE852604EC160048E76A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		C236CE8F2604EC160048E76A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C236CE922604EC160048E76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C236CE942604EC160048E76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C236CE9B2604EC500048E76A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C236CE9E2604ECE10048E76A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				C236CE832604EC160048E76A /* AppDelegate.swift */,
 				C236CE852604EC160048E76A /* SceneDelegate.swift */,
 				C236CE872604EC160048E76A /* ContentView.swift */,
+				C22044A9260F3F4200A667F7 /* EditView.swift */,
+				C236CE9B2604EC500048E76A /* Card.swift */,
+				C236CE9E2604ECE10048E76A /* CardView.swift */,
 				C236CE8C2604EC160048E76A /* Assets.xcassets */,
 				C236CE912604EC160048E76A /* LaunchScreen.storyboard */,
 				C236CE942604EC160048E76A /* Info.plist */,
@@ -150,7 +159,10 @@
 			files = (
 				C236CE842604EC160048E76A /* AppDelegate.swift in Sources */,
 				C236CE8B2604EC160048E76A /* Project_17_FlashZilla.xcdatamodeld in Sources */,
+				C236CE9C2604EC500048E76A /* Card.swift in Sources */,
 				C236CE862604EC160048E76A /* SceneDelegate.swift in Sources */,
+				C22044AA260F3F4200A667F7 /* EditView.swift in Sources */,
+				C236CE9F2604ECE10048E76A /* CardView.swift in Sources */,
 				C236CE882604EC160048E76A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
